@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #00204C;
+}
+
+body{
+    background-color: #EAF2FF;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav{
+    width: 100%;
+    height: 149.2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    margin: 40px 30px;
+    font-weight: 800;
+}
+
+li{
+    padding-left: 32px;
+}
+
+a:hover{
+    color: #A700FA;
+}
+
+.icone{
+    display: flex;
+    margin: 25px 40px;
+    background-color: #fff;
+    width: 214px;
+    height: 69px;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: large;
+    box-shadow: 6.43px 7.66px 10px 0px rgba(167,0,250,0.1);
+}
+
+.icone img{
+    width: 30px;
+    height: 30px;
+    margin: 15px 17px;
+    background: transparent;
+}
+
+.icone span{
+    margin: 20px 17px;
+}
+
+.icone_games{
+    display: flex;
+    margin: 20px 40px;
+    background-color: #fff;
+    width: 279px;
+    height: 131px;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: large;
+    box-shadow: 6.43px 7.66px 10px 0px rgba(167,0,250,0.1);
+}
+
+
+.icone_games span{
+    margin-top: 40px;
+}
+
+
+.img_border{
+    width: 70px ;
+    height: 70px;
+    margin: 25px;
+    border: #EAF2FF 6px solid;
+    border-radius: 20px;
+
+}
+
+.shape img{
+    width: 100%;
+    margin-top: 90px;
+    max-width: 150px;
+    height: 150px;
+}
+
+.texto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Bree Serif', serif;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.sub-texto{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.texto i{
+    background-color: #9900E4;
+    padding: 0 40px 15px 40px;
+    border-radius: 60px;
+    color: #fff;
+}
+
+.texto span{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.texto2 span{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 30px 0 0 0;
+}
+
+.texto2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Bree Serif', serif;
+    margin: 20px 0 100px 0;
+    flex-wrap: wrap;
+}
+
+.sub-texto2{
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.texto2 i{
+    background-color: #9900E4;
+    padding: 0 40px 15px 40px;
+    border-radius: 60px;
+    color: #fff;
+}
+
+.app{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 30px 0;
+}
+
+.mao{
+    background-image: url('../img/mao.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+}
+
+.shape2{
+    display: flex;
+    justify-content: end;
+    margin-right: 300px;
+}
+
+.shape2 img{
+    width: 180px;
+}
+

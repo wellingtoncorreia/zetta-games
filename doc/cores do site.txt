@@ -1,0 +1,5 @@
+#EAF2FF fundo
+#9900E4 falso botão
+#00204C botão vagas
+#A700FA botão assinar link
+#00204C texto

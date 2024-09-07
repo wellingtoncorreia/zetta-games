@@ -1,0 +1,93 @@
+.sec_game{
+    display: flex;
+    justify-content: center;
+}
+
+.fundo{
+    width: 100%;
+    max-width: 1300px;
+    height: 610px;
+    margin: 50px;
+}
+
+.bk1{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/fundo_dragao.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.bk2{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/fundo_gato.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.bk3{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/fundo_castelo.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.icone_game_up{
+    display: flex;
+    margin: 20px 80px;
+    background-color: #fff;
+    width: 650px;
+    height: 471px;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.4rem;
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+}
+.icone_game_up p{
+    width: 300px;
+    font-size: 1rem;
+}
+
+.textos_span{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 0 0 20px;
+}
+
+.img_game{
+    display: flex;
+    margin: 50px 0 35px 50px;
+    margin-top: 85px;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.img_game_torre{
+    width: 80px ;
+    height: 80px;
+    border: #EAF2FF 6px solid;
+    border-radius: 20px;
+}
+
+
+.img_app{
+    margin: 50px 40px 0 0;
+}
+
+.img_app img{
+    width: 200px;
+    height: 350px;
+}
+
+.bt{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+.bt img{
+    padding-right: 20px;
+    width: 120px;
+    height: 35px;
+}
+

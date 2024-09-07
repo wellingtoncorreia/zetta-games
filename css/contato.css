@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contatos{
+    background-image: linear-gradient(rgba(76, 0, 255, 0.3), rgba(76, 0, 255, 0.3)), url('../img/fundo_espaco.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.position{
+    position: absolute;
+    margin-top: -230px;
+}
+
+.robo{
+    margin-right: 60%;
+}
+
+.icone_form{
+    margin-right: 150px;
+    display: flex;
+    background-color: #fff;
+    width: 450px;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    padding: 50px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border:1;
+    margin-bottom: 30px;
+}
