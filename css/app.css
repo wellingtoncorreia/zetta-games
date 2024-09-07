@@ -91,3 +91,38 @@
     height: 35px;
 }
 
+@media (max-width: 950px) {
+    .right{
+        display: flex;
+        justify-content: center;
+    }
+
+    .fundo{
+        margin: 0;
+        padding: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        min-width: 300px;
+        height: 100%;
+    }
+    .icone_game_up{
+        margin: 0;
+        width: 100%;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .img_app{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .img_game{
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
